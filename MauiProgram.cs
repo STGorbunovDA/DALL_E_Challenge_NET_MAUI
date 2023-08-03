@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
+using PanCardView;
 
 namespace DALL_E_Challenge_NET_MAUI
 {
@@ -9,10 +11,14 @@ namespace DALL_E_Challenge_NET_MAUI
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseCardsView()
+                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Nexa-ExtraLight.ttf", "NexaLight");
+                    fonts.AddFont("nexa-heavy.ttf", "NexaHeavy");
                 });
 
 #if DEBUG

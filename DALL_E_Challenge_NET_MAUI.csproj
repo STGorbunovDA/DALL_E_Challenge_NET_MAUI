@@ -49,6 +49,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Nexa-ExtraLight.ttf" />
+	  <None Remove="Resources\Fonts\nexa-heavy.ttf" />
+	  <None Remove="Resources\Images\dashboard1.jpg" />
+	  <None Remove="Resources\Images\dashboard2.jpg" />
+	  <None Remove="Resources\Images\dashboard3.jpg" />
+	  <None Remove="Resources\Images\dashboard4.jpg" />
+	  <None Remove="Resources\Images\profile1.jpg" />
+	  <None Remove="Resources\Images\profile2.jpg" />
+	  <None Remove="Resources\Images\profile3.jpg" />
+	  <None Remove="Resources\Images\profile4.jpg" />
+	  <None Remove="Resources\Images\profilesquare3.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CardsView.Maui" Version="0.0.4" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="5.2.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
