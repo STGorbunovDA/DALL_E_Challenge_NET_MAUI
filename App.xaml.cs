@@ -8,7 +8,7 @@ namespace DALL_E_Challenge_NET_MAUI
         {
             InitializeComponent();
 
-            MainPage = new GenerationOptionsViews();
+            MainPage = new ImageGeneratorView();
         }
     }
 }

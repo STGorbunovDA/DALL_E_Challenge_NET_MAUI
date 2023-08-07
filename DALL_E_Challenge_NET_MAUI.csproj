@@ -70,12 +70,14 @@
 	  <None Remove="Resources\Images\storybook.jpeg" />
 	  <None Remove="Resources\Images\surrealism.jpg" />
 	  <None Remove="Resources\Images\watercolor.jpg" />
+	  <None Remove="Resources\Raw\robot.json" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="CardsView.Maui" Version="0.0.4" />
 		<PackageReference Include="CommunityToolkit.Maui" Version="5.2.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="SkiaSharp.Extended.UI.Maui" Version="2.0.0-preview.61" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -83,6 +85,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\GenerationOptionsViews.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ImageGeneratorView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
