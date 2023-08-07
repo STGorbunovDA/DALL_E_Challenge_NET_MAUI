@@ -51,15 +51,25 @@
 	<ItemGroup>
 	  <None Remove="Resources\Fonts\Nexa-ExtraLight.ttf" />
 	  <None Remove="Resources\Fonts\nexa-heavy.ttf" />
-	  <None Remove="Resources\Images\dashboard1.jpg" />
+	  <None Remove="Resources\Images\anime.jpg" />
+	  <None Remove="Resources\Images\cartoon.jpg" />
+	  <None Remove="Resources\Images\dashboard1.jpeg" />
 	  <None Remove="Resources\Images\dashboard2.jpg" />
 	  <None Remove="Resources\Images\dashboard3.jpg" />
 	  <None Remove="Resources\Images\dashboard4.jpg" />
+	  <None Remove="Resources\Images\isometric.jpg" />
+	  <None Remove="Resources\Images\minimalism.jpg" />
+	  <None Remove="Resources\Images\popart.jpg" />
 	  <None Remove="Resources\Images\profile1.jpg" />
 	  <None Remove="Resources\Images\profile2.jpg" />
 	  <None Remove="Resources\Images\profile3.jpg" />
 	  <None Remove="Resources\Images\profile4.jpg" />
 	  <None Remove="Resources\Images\profilesquare3.jpg" />
+	  <None Remove="Resources\Images\realistic.jpg" />
+	  <None Remove="Resources\Images\space.jpg" />
+	  <None Remove="Resources\Images\storybook.jpeg" />
+	  <None Remove="Resources\Images\surrealism.jpg" />
+	  <None Remove="Resources\Images\watercolor.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -70,6 +80,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\DashboardView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\GenerationOptionsViews.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

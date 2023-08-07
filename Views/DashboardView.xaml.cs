@@ -20,25 +20,25 @@ public partial class DashboardView : ContentPage
         {
             new Profile
             {
-                Name = "Bidgo",
+                Name = "Raccoon",
                 ProfileImage = "profile1.jpg",
                 NoPhotos = 5
             },
             new Profile
             {
-                Name = "Gorin",
+                Name = "Hank",
                 ProfileImage = "profile2.jpg",
                 NoPhotos = 12
             },
             new Profile
             {
-                Name = "Bratello",
+                Name = "X-183",
                 ProfileImage = "profile3.jpg",
                 NoPhotos = 7
             },
             new Profile
             {
-                Name = "Sanchaz",
+                Name = "Y-184",
                 ProfileImage = "profile4.jpg",
                 NoPhotos = 3
             },
@@ -48,37 +48,37 @@ public partial class DashboardView : ContentPage
             new GeneratedImage
             {
                 ImagePath = "dashboard1.jpg",
-                MainKeyword = "Indian",
+                MainKeyword = "Forest",
                 Keywords = new List<string>
                 {
-                    "bow, arrows, indians, mountain, asians"
+                    "forest, sun, trees, moss, nature"
                 }
             },
             new GeneratedImage
             {
                 ImagePath = "dashboard2.jpg",
-                MainKeyword = "Bodybuilding",
+                MainKeyword = "Mountains",
                 Keywords = new List<string>
                 {
-                    "rocking chair, golubochkin, gym, sports"
+                    "mountains, lake, clouds, nature, light"
                 }
             },
             new GeneratedImage
             {
                 ImagePath = "dashboard3.jpg",
-                MainKeyword = "Comedia",
+                MainKeyword = "Ocean",
                 Keywords = new List<string>
                 {
-                    "kazakhstan, armenia, shurik, caucasian captive"
+                    "ocean, depth, trident, fish"
                 }
             },
             new GeneratedImage
             {
                 ImagePath = "dashboard4.jpg",
-                MainKeyword = "Utkin",
+                MainKeyword = "Robot",
                 Keywords = new List<string>
                 {
-                    "fat, fat, burger, joke, second chin"
+                    "works, science, programming, mechanics"
                 }
             }
         };
